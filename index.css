@@ -1,0 +1,48 @@
+body{
+    background: url(/Capture.JPG);
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+h1 {
+    color: goldenrod;
+    margin-left: 450px;
+    margin-top: 70px;
+    font-size: 80px;
+    border-style:dashed;
+    border-width: 15px;
+    width: 600px;
+    border-color: white;
+    word-wrap: inherit;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bolder;
+    
+    
+}
+
+ button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+} 
+
+button:hover{
+    background-color: green;
+    color:white;
+}
+
+.butcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
